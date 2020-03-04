@@ -3,107 +3,112 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Denis Titusov
-    tagline: Software Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Denis Titusov
+  tagline: Software Engineer
+  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: sescusu@gmail.com
-    phone: +375 257 266 819
-    linkedin: titusjaka
-    github: titusjaka
+  # Sidebar links
+  email: sescusu@gmail.com
+  phone: +375 257 266 819
+  linkedin: titusjaka
+  github: titusjaka
 
-    languages:
-      - idiom: Russian
-        level: Native
+  languages:
+  - idiom: Russian
+    level: Native
 
-      - idiom: English
-        level: Upper-Intermediate
+  - idiom: English
+    level: Upper-Intermediate
 
-    interests:
-      - item: Climbing
-        link:
+  interests:
+  - item: Climbing
+    link:
 
-      - item: Boardgames
-        link:
+  - item: Boardgames
+    link:
 
-      - item: Bicycling
-        link:
+  - item: Bicycling
+    link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      I'm a Golang developer with a DevOps background.
-      I'm experienced in Go, micro services, ElasticSearch. I'm also a bit familiar with JavaScript and Python.
-      Now I'm looking for a job as a back-end developer. I would be happy to discuss the opportunities.
+  title: Career Profile
+  summary: |
+    I'm a Golang developer with a DevOps background.
+    I'm experienced in Go, micro services, ElasticSearch. I'm also a bit familiar with JavaScript and Python.
+    Now I'm looking for a job as a back-end developer. I would be happy to discuss the opportunities.
+
 education:
-    - degree: Incomplete bachelor's degree in Innovations
-      university: Ural Federal University, Ekaterinburg, Russia
-      time: 2009 - 2013
-      details:
+- degree: Incomplete bachelor's degree in Innovations
+  university: Ural Federal University, Ekaterinburg, Russia
+  time: 2009 - 2013
+
 experiences:
-    - role: Chief Technology Officer
-      time: Sep 2019 – Feb 2020
-      company: Enjoy.ai, Minsk
-      details: |
-        I was the only developer in the Enjoy.ai and was responsible for the whole technical details.
-          - Technologies: Golang, JavaScript, Docker, Gitlab.
-    - role: Senior Software Engineer (Golang)
-      time: Dec 2018 — Sep 2019
-      company: Affise, Minsk
-      details: |
-        I was developing the core of Affise platform. And I was also participating in Infrastructure activities: set up CI/CD, investigate on log management system, design duty process, introduce culture of blameless-postmortems.
-          - Technologies: Golang, ElasticSearch, gRPC, Docker, Drone.io, Github
-          - Approaches: agile, code reviews.
-    - role: Software Engineer (Golang)
-    time: Mar 2018 - Dec 2018
-    company: SKB Kontur, Ekaterinburg
-    details: |
-      I was participating in Open-Source project of SKB Kontur — Moira. Moira is a real-time alerting system designed for huge amount of metrics. You can find information and source code here: GitHub repo.
-      I was a core developer. I have been writing the code and setting up CI/CD. As we didn't have a system administrator in the project, I was engaged in operations too.
-        - Technologies: Golang, TeamCity, GitHub, GitLab, Ansible, Docker, Travis, Redis
-        - Approaches: agile, code reviews
-    - role: Independent Entrepreneur
-    company: Anti-cafe D12, Ekaterinburg
-    time: Jan 2017 — Mar 2018
-    details: |
-      I tried myself as an independent entrepreneur and have opened an anti-cafe named D12 in Ekaterinburg. It was a place for everyone who loves boardgames and communication.
-      Thanks to D12 I have learned lots of interesting things such as marketing, administrating, management and working with audience. Unfortunately, It was economically disadvantageous, so I decided to close the anti-cafe.
-        - Technologies and approaches: customer development, marketing, management.
-    - role: DevOps Engineer
-    time: Oct 2015 - Jul 2017
-    company: SKB Kontur, Ekaterinburg
-    details: |
-      I worked in Infrastructure team as a DevOps engineer. I supported CI/CD on Microsoft-oriented environment.
-        - Technologies: Octopus Deploy, Windows Server, C#, Powershell, Gitlab, TeamCity, Go, Ansible, Docker.
-        - Approaches: agile, code reviews.
-    
+- role: Chief Technology Officer
+  time: Sep 2019 – Feb 2020
+  company: Enjoy.ai, Minsk
+  details: |
+    I was the only developer in the Enjoy.ai and was responsible for the whole technical details.
+      - Technologies: Golang, JavaScript, Docker, Gitlab.
+
+- role: Senior Software Engineer (Golang)
+  time: Dec 2018 — Sep 2019
+  company: Affise, Minsk
+  details: |
+    I was developing the core of Affise platform. And I was also participating in Infrastructure activities: set up CI/CD, investigate on log management system, design duty process, introduce culture of blameless-postmortems.
+      - Technologies: Golang, ElasticSearch, gRPC, Docker, Drone.io, Github
+      - Approaches: agile, code reviews.
+
+- role: "Software Engineer (Golang)"
+  time: Mar 2018 - Dec 2018
+  company: SKB Kontur, Ekaterinburg
+  details: |
+    I was participating in Open-Source project of SKB Kontur — Moira. Moira is a real-time alerting system designed for huge amount of metrics. You can find information and source code here: GitHub repo.
+    I was a core developer. I have been writing the code and setting up CI/CD. As we didn't have a system administrator in the project, I was engaged in operations too.
+      - Technologies: Golang, TeamCity, GitHub, GitLab, Ansible, Docker, Travis, Redis
+      - Approaches: agile, code reviews
+
+- role: Independent Entrepreneur
+  company: Anti-cafe D12, Ekaterinburg
+  time: Jan 2017 — Mar 2018
+  details: |
+    I tried myself as an independent entrepreneur and have opened an anti-cafe named D12 in Ekaterinburg. It was a place for everyone who loves boardgames and communication.
+    Thanks to D12 I have learned lots of interesting things such as marketing, administrating, management and working with audience. Unfortunately, It was economically disadvantageous, so I decided to close the anti-cafe.
+      - Technologies and approaches: customer development, marketing, management.
+
+- role: DevOps Engineer
+  time: Oct 2015 - Jul 2017
+  company: SKB Kontur, Ekaterinburg
+  details: |
+    I worked in Infrastructure team as a DevOps engineer. I supported CI/CD on Microsoft-oriented environment.
+      - Technologies: Octopus Deploy, Windows Server, C#, Powershell, Gitlab, TeamCity, Go, Ansible, Docker.
+      - Approaches: agile, code reviews.
+
 projects:
-    title: Projects
-    assignments:
-      - title: Moira Alerting
-        link: https://github.com/moira-alert/moira
-        tagline: "Moira is a real-time alerting tool, based on Graphite data."
+  title: Projects
+  assignments:
+  - title: Moira Alerting
+    link: https://github.com/moira-alert/moira
+    tagline: "Moira is a real-time alerting tool, based on Graphite data."
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Golang
-        level: 95%
+  toolset:
+  - name: Golang
+    level: 95%
 
-      - name: Docker
-        level: 80%
+  - name: Docker
+    level: 80%
 
-      - name: ElasticSearch
-        level: 70%
+  - name: ElasticSearch
+    level: 70%
 
-      - name: Python
-        level: 50%
+  - name: Python
+    level: 50%
 
-      - name: JavaScript
-        level: 40%
+  - name: JavaScript
+    level: 40%
