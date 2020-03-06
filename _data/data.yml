@@ -67,7 +67,7 @@ experiences:
   time: Mar 2018 - Dec 2018
   company: SKB Kontur, Ekaterinburg
   details: |
-    I was participating in Open-Source project of SKB Kontur — Moira. Moira is a real-time alerting system designed for huge amount of metrics. You can find information and source code here: GitHub repo.
+    I was participating in Open-Source project of SKB Kontur — Moira. Moira is a real-time alerting system designed for huge amount of metrics. You can find information and source code here: https://github.com/moira-alert/moira.
     I was a core developer. I have been writing the code and setting up CI/CD. As we didn't have a system administrator in the project, I was engaged in operations too.
       - Technologies: Golang, TeamCity, GitHub, GitLab, Ansible, Docker, Travis, Redis
       - Approaches: agile, code reviews
