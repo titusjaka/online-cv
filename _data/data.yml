@@ -29,6 +29,9 @@ sidebar:
   - item: Climbing
     link:
 
+  - item: Science Fiction and Nonfiction
+    link:
+
   - item: Boardgames
     link:
 
@@ -39,8 +42,15 @@ career-profile:
   title: Career Profile
   summary: |
     I'm a Golang developer with a DevOps background.
-    I'm experienced in Go, micro services, ElasticSearch. I'm also a bit familiar with JavaScript and Python.
-    Now I'm looking for a job as a back-end developer. I would be happy to discuss the opportunities.
+    I'm experienced in Go, microservices, ElasticSearch. I'm also a bit familiar with JavaScript, Python, and C#.
+
+    Team and tasks are important to me. 
+    If the team discusses issues together, negotiate and find compromises — then we will work together well. 
+    If the tasks are diverse and require brainstorming — I am in.
+
+    I'm looking for a job as a back-end developer in the product team or outsourcing company. Startups are welcome too.
+    I have experience in setting up processes within the team. So I'm also considering the position of the team leader.
+    I would be happy to discuss the opportunities.
 
 education:
 - degree: Incomplete bachelor's degree in Innovations
@@ -52,39 +62,44 @@ experiences:
   time: Sep 2019 – Feb 2020
   company: Enjoy.ai, Minsk
   details: |
-    I was the only developer in the Enjoy.ai and was responsible for the whole technical details.
+    Enjoy.ai is a sexual wellness startup. Our goal is to help people diversify their intimate lives.
+
+    I was the only developer on the project and was responsible for the whole technical details.
+    We existed for six months. During this time we managed to make 3 versions of the product to test hypotheses in different audiences.
       - Technologies: Golang, JavaScript, Docker, Gitlab.
 
 - role: Senior Software Engineer (Golang)
   time: Dec 2018 — Sep 2019
   company: Affise, Minsk
   details: |
-    I was developing the core of Affise platform. And I was also participating in Infrastructure activities: set up CI/CD, investigate on log management system, design duty process, introduce culture of blameless-postmortems.
-      - Technologies: Golang, ElasticSearch, gRPC, Docker, Drone.io, Github
-      - Approaches: agile, code reviews.
+    I was developing the core of the Affise platform. It was a complex and interesting project. Since the platform handles a total of 400,000 clicks per second with a latency of 20 milliseconds.
+    I was also participating in Infrastructure activities: set up CI/CD, investigate the log management system, design duty process, introduce the culture of blameless-postmortems.
+      - Technologies: Golang, ElasticSearch, gRPC, Docker, Drone.io, Github.
+      - Approaches: agile, blameless-postmortems, code reviews.
 
 - role: "Software Engineer (Golang)"
   time: Mar 2018 - Dec 2018
   company: SKB Kontur, Ekaterinburg
   details: |
-    I was participating in Open-Source project of SKB Kontur — Moira. Moira is a real-time alerting system designed for huge amount of metrics. You can find information and source code here: https://github.com/moira-alert/moira.
-    I was a core developer. I have been writing the code and setting up CI/CD. As we didn't have a system administrator in the project, I was engaged in operations too.
-      - Technologies: Golang, TeamCity, GitHub, GitLab, Ansible, Docker, Travis, Redis
-      - Approaches: agile, code reviews
+    I was participating in an Open-Source project of SKB Kontur — Moira. Moira is a real-time alerting system designed for the huge amount of metrics. It handles 200,000+ metrics per second.
+    I was the core developer. I have been writing the code and setting up CI/CD. As we didn't have a system administrator in the project, I was engaged in operations too.
+    You can find information and source code here: https://github.com/moira-alert/moira.
+      - Technologies: Golang, TeamCity, GitHub, GitLab, Ansible, Docker, Travis, Redis.
+      - Approaches: agile, blameless-postmortems, code reviews.
 
 - role: Independent Entrepreneur
   company: Anti-cafe D12, Ekaterinburg
   time: Jan 2017 — Mar 2018
   details: |
-    I tried myself as an independent entrepreneur and have opened an anti-cafe named D12 in Ekaterinburg. It was a place for everyone who loves boardgames and communication.
-    Thanks to D12 I have learned lots of interesting things such as marketing, administrating, management and working with audience. Unfortunately, It was economically disadvantageous, so I decided to close the anti-cafe.
+    I tried myself as an independent entrepreneur and have opened an anti-cafe named D12 in Ekaterinburg. It was a place for everyone who loves board games and communication.
+    Thanks to D12 I have learned lots of interesting things such as marketing, administrating, management and working with the audience. Unfortunately, It was economically disadvantageous, so I decided to close the anti-cafe.
       - Technologies and approaches: customer development, marketing, management.
 
 - role: DevOps Engineer
   time: Oct 2015 - Jul 2017
   company: SKB Kontur, Ekaterinburg
   details: |
-    I worked in Infrastructure team as a DevOps engineer. I supported CI/CD on Microsoft-oriented environment.
+    I worked in the Infrastructure team as a DevOps engineer. I supported CI/CD on Microsoft-oriented environment.
       - Technologies: Octopus Deploy, Windows Server, C#, Powershell, Gitlab, TeamCity, Go, Ansible, Docker.
       - Approaches: agile, code reviews.
 
@@ -94,6 +109,10 @@ projects:
   - title: Moira Alerting
     link: https://github.com/moira-alert/moira
     tagline: "Moira is a real-time alerting tool, based on Graphite data."
+
+  - title: Botpress
+    link: https://github.com/titusjaka/botpress
+    tagline: The open-source chat-bot platform
 
 skills:
   title: Skills &amp; Proficiency
@@ -108,8 +127,14 @@ skills:
   - name: ElasticSearch
     level: 70%
 
+  - name: MongoDB
+    level: 70%
+
   - name: Python
     level: 50%
 
   - name: JavaScript
     level: 40%
+
+  - name: C# and .Net
+    level: 30%
