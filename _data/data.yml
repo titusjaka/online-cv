@@ -85,7 +85,7 @@ experiences:
   details: |
     I was participating in an Open-Source project of SKB Kontur — Moira.  
     Moira is a real-time alerting system designed for the huge amount of metrics. It handles 200,000+ metrics per second.  
-    You can find information and source code here: https://github.com/moira-alert/moira.
+    You can find information and source code here: [https://github.com/moira-alert/moira](https://github.com/moira-alert/moira).
 
     I was the core developer. I have been writing the code and setting up CI/CD.  
     As we didn't have a system administrator in the project, I was engaged in operations too.
