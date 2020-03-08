@@ -2,17 +2,17 @@
 
 # Site Settings
 title: Denis Titusov's CV
-url: 'https://titusjaka.github.io'
-baseurl: '/online-cv' #change it according to your repository name
+url: "https://titusjaka.github.io"
+baseurl: "/online-cv" #change it according to your repository name
 description: Denis Titusov's online CV
+preview_image: cv_preview.png
+
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: berry # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
 analytics: UA-83979019-1
-
-
 
 # Sass/SCSS
 sass:

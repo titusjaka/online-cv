@@ -1,6 +1,4 @@
 <head>
-  <title>{{ site.title }}</title>
-
   <!-- Meta -->
   <meta charset="utf-8">
   {% if site.chrome_mobile_color %}
@@ -8,8 +6,32 @@
   {% endif%}
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary Meta Tags -->
+  <title>{{ site.title }}</title>
+  <meta name="title" content="{{ site.title |default: "My CV" }}">
   <meta name="description" content="{{ site.description |default: "A beautiful
   Jekyll theme for creating resume" }}">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}">
+  <meta property="og:title" content="{{ site.title |default: "My CV" }}">
+  <meta property="og:description" content="{{ site.description |default: "A beautiful
+  Jekyll theme for creating resume" }}">
+  {% if site.preview_image %}
+  <meta property="og:image" content="{{ site.baseurl }}/assets/images/{{ site.preview_image }}">
+  {% endif %}
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ site.url }}{{ site.baseurl }}>
+  <meta property="twitter:title" content="{{ site.title |default: "My CV" }}">
+  <meta property="twitter:description" content="{{ site.description |default: "A beautiful
+  Jekyll theme for creating resume" }}">
+  {% if site.preview_image %}
+  <meta property="twitter:image" content="{{ site.baseurl }}/assets/images/{{ site.preview_image }}">
+  {% endif %}
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico">
