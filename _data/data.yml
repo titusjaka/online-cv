@@ -67,6 +67,7 @@ experiences:
   - role: Chief Technology Officer
     time: Sep 2019 – Feb 2020
     company: Enjoy.ai, Minsk
+    website: https://www.facebook.com/enjoyaipage/
     details: |
       Enjoy.ai is a sexual wellness startup. Our goal is to help people diversify their intimate lives.  
       As the first stage, we developed a chat-bot with natural language processing (NLP) and user-friendly content.
@@ -78,6 +79,7 @@ experiences:
   - role: Senior Software Engineer (Golang)
     time: Dec 2018 — Sep 2019
     company: Affise, Minsk
+    website: https://affise.com
     details: |
       I was developing the core of the Affise platform.  
       It was a complex and interesting project. Since the platform handles a total of 400,000 clicks per second with a latency of 20 milliseconds.
@@ -89,6 +91,7 @@ experiences:
   - role: "Software Engineer (Golang)"
     time: Mar 2018 - Dec 2018
     company: SKB Kontur, Ekaterinburg
+    website: https://kontur.ru
     details: |
       I was participating in an Open-Source project of SKB Kontur — Moira.  
       Moira is a real-time alerting system designed for the huge amount of metrics. It handles 200,000+ metrics per second.  
@@ -102,6 +105,7 @@ experiences:
   - role: Independent Entrepreneur
     company: Anti-cafe D12, Ekaterinburg
     time: Jan 2017 — Mar 2018
+    website: https://vk.com/d12.online
     details: |
       I tried myself as an independent entrepreneur and have opened an anti-cafe named D12 in Ekaterinburg.  
       It was a place for everyone who loves board games and communication.
@@ -113,6 +117,7 @@ experiences:
   - role: DevOps Engineer
     time: Oct 2015 - Jul 2017
     company: SKB Kontur, Ekaterinburg
+    website: https://kontur.ru
     details: |
       I worked in the Infrastructure team as a DevOps engineer.  
       I supported CI/CD on Microsoft-oriented environment.
