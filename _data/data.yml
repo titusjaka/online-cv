@@ -17,6 +17,7 @@ sidebar:
   linkedin: titusjaka
   github: titusjaka
   telegram: titusjaka
+  address: Minsk, Belarus
 
   languages:
   - idiom: Russian
@@ -37,6 +38,11 @@ sidebar:
 
   - item: Bicycling
     link:
+
+  relocates:
+  - European Union
+  - Georgia
+  - Ukraine
 
 career-profile:
   title: Career Profile

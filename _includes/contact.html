@@ -1,6 +1,13 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
 
+    {% if sidebar.address %}
+    <li class="location-current"><i class="fas fa-map-marker-alt"></i>
+      {{ sidebar.address }}
+    </li>
+
+    {% endif %}
+
     {% if sidebar.email %}
     <li class="email"><i class="fas fa-envelope"></i>
       <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
@@ -58,13 +65,15 @@
 
     {% if sidebar.stack-overflow %}
     <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
-      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
+      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}"
+        target="_blank">{{ sidebar.stack-overflow }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.codewars %}
     <li class="codewars"><i class="fas fa-code"></i>
-      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
+      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions"
+        target="_blank">{{ sidebar.codewars }}</a>
     </li>
     {% endif %}
 
@@ -75,4 +84,5 @@
     {% endif %}
 
   </ul>
-</div><!--//contact-container-->
+</div>
+<!--//contact-container-->

@@ -1,0 +1,16 @@
+{% assign relocates = site.data.data.sidebar.relocates %}
+{% if relocates %}
+<div class="relocates-container container-block">
+
+  <h2 class="container-block-title">
+    Ready to relocate
+  </h2>
+
+  <ul class="list-unstyled relocates-list">
+    {% for relocate in relocates %}
+      <li>{{ relocate }}</li>
+    {% endfor %}
+  </ul>
+
+</div><!--//relocates-->
+{% endif %}
