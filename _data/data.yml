@@ -9,7 +9,7 @@ sidebar:
   # Profile information
   name: Denis Titusov
   tagline: Software Engineer
-  avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: sescusu@gmail.com
@@ -20,29 +20,29 @@ sidebar:
   address: Minsk, Belarus
 
   languages:
-  - idiom: Russian
-    level: Native
+    - idiom: Russian
+      level: Native
 
-  - idiom: English
-    level: Upper-Intermediate
+    - idiom: English
+      level: Upper-Intermediate
 
   interests:
-  - item: Climbing
-    link: https://en.wikipedia.org/wiki/Bouldering
+    - item: Climbing
+      link: https://en.wikipedia.org/wiki/Bouldering
 
-  - item: Science Fiction and Nonfiction
-    link: https://www.livelib.ru/reader/Titusjaka
+    - item: Science Fiction and Nonfiction
+      link: https://www.livelib.ru/reader/Titusjaka
 
-  - item: Boardgames
-    link: https://boardgamegeek.com/
+    - item: Boardgames
+      link: https://boardgamegeek.com/
 
-  - item: Bicycling
-    link:
+    - item: Bicycling
+      link:
 
   relocates:
-  - European Union
-  - Georgia
-  - Ukraine
+    - European Union
+    - Georgia
+    - Ukraine
 
 career-profile:
   title: Career Profile
@@ -59,98 +59,98 @@ career-profile:
     I would be happy to discuss the opportunities.
 
 education:
-- degree: Incomplete bachelor's degree in Innovations
-  university: Ural Federal University, Ekaterinburg, Russia
-  time: 2009 - 2013
+  - degree: Incomplete bachelor's degree in Innovations
+    university: Ural Federal University, Ekaterinburg, Russia
+    time: 2009 - 2013
 
 experiences:
-- role: Chief Technology Officer
-  time: Sep 2019 – Feb 2020
-  company: Enjoy.ai, Minsk
-  details: |
-    Enjoy.ai is a sexual wellness startup. Our goal is to help people diversify their intimate lives.  
-    As the first stage, we developed a chat-bot with natural language processing (NLP) and user-friendly content.
+  - role: Chief Technology Officer
+    time: Sep 2019 – Feb 2020
+    company: Enjoy.ai, Minsk
+    details: |
+      Enjoy.ai is a sexual wellness startup. Our goal is to help people diversify their intimate lives.  
+      As the first stage, we developed a chat-bot with natural language processing (NLP) and user-friendly content.
 
-    I was the only developer on the project and was responsible for the whole technical details.  
-    We existed for six months. During this time we managed to make 3 versions of the product to test hypotheses in different audiences.
-      - **Technologies**: Golang, NLP, JavaScript, Docker, Gitlab.
+      I was the only developer on the project and was responsible for the whole technical details.  
+      We existed for six months. During this time we managed to make 3 versions of the product to test hypotheses in different audiences.
+        - **Technologies**: Golang, NLP, JavaScript, Docker, Gitlab.
 
-- role: Senior Software Engineer (Golang)
-  time: Dec 2018 — Sep 2019
-  company: Affise, Minsk
-  details: |
-    I was developing the core of the Affise platform.  
-    It was a complex and interesting project. Since the platform handles a total of 400,000 clicks per second with a latency of 20 milliseconds.
+  - role: Senior Software Engineer (Golang)
+    time: Dec 2018 — Sep 2019
+    company: Affise, Minsk
+    details: |
+      I was developing the core of the Affise platform.  
+      It was a complex and interesting project. Since the platform handles a total of 400,000 clicks per second with a latency of 20 milliseconds.
 
-    I was also participating in Infrastructure activities: set up CI/CD, investigate the log management system, design duty process, introduce the culture of blameless-postmortems.
-      - **Technologies**: Golang, ElasticSearch, gRPC, Docker, Drone.io, Github.
-      - **Approaches**: agile, blameless-postmortems, code reviews.
+      I was also participating in Infrastructure activities: set up CI/CD, investigate the log management system, design duty process, introduce the culture of blameless-postmortems.
+        - **Technologies**: Golang, ElasticSearch, gRPC, Docker, Drone.io, Github.
+        - **Approaches**: agile, blameless-postmortems, code reviews.
 
-- role: "Software Engineer (Golang)"
-  time: Mar 2018 - Dec 2018
-  company: SKB Kontur, Ekaterinburg
-  details: |
-    I was participating in an Open-Source project of SKB Kontur — Moira.  
-    Moira is a real-time alerting system designed for the huge amount of metrics. It handles 200,000+ metrics per second.  
-    You can find information and source code here: [https://github.com/moira-alert/moira](https://github.com/moira-alert/moira).
+  - role: "Software Engineer (Golang)"
+    time: Mar 2018 - Dec 2018
+    company: SKB Kontur, Ekaterinburg
+    details: |
+      I was participating in an Open-Source project of SKB Kontur — Moira.  
+      Moira is a real-time alerting system designed for the huge amount of metrics. It handles 200,000+ metrics per second.  
+      You can find information and source code here: [https://github.com/moira-alert/moira](https://github.com/moira-alert/moira).
 
-    I was the core developer. I have been writing the code and setting up CI/CD.  
-    As we didn't have a system administrator in the project, I was engaged in operations too.
-      - **Technologies**: Golang, TeamCity, GitHub, GitLab, Ansible, Docker, Travis, Redis.
-      - **Approaches**: agile, blameless-postmortems, code reviews.
+      I was the core developer. I have been writing the code and setting up CI/CD.  
+      As we didn't have a system administrator in the project, I was engaged in operations too.
+        - **Technologies**: Golang, TeamCity, GitHub, GitLab, Ansible, Docker, Travis, Redis.
+        - **Approaches**: agile, blameless-postmortems, code reviews.
 
-- role: Independent Entrepreneur
-  company: Anti-cafe D12, Ekaterinburg
-  time: Jan 2017 — Mar 2018
-  details: |
-    I tried myself as an independent entrepreneur and have opened an anti-cafe named D12 in Ekaterinburg.  
-    It was a place for everyone who loves board games and communication.
+  - role: Independent Entrepreneur
+    company: Anti-cafe D12, Ekaterinburg
+    time: Jan 2017 — Mar 2018
+    details: |
+      I tried myself as an independent entrepreneur and have opened an anti-cafe named D12 in Ekaterinburg.  
+      It was a place for everyone who loves board games and communication.
 
-    Thanks to D12 I have learned lots of interesting things such as marketing, administrating, management and working with the audience.  
-    Unfortunately, It was economically disadvantageous, so I decided to close the anti-cafe.
-      - **Technologies and approaches**: customer development, marketing, management.
+      Thanks to D12 I have learned lots of interesting things such as marketing, administrating, management and working with the audience.  
+      Unfortunately, It was economically disadvantageous, so I decided to close the anti-cafe.
+        - **Technologies and approaches**: customer development, marketing, management.
 
-- role: DevOps Engineer
-  time: Oct 2015 - Jul 2017
-  company: SKB Kontur, Ekaterinburg
-  details: |
-    I worked in the Infrastructure team as a DevOps engineer.  
-    I supported CI/CD on Microsoft-oriented environment.
-      - **Technologies**: Octopus Deploy, Windows Server, C#, Powershell, Gitlab, TeamCity, Go, Ansible, Docker.
-      - **Approaches**: agile, code reviews.
+  - role: DevOps Engineer
+    time: Oct 2015 - Jul 2017
+    company: SKB Kontur, Ekaterinburg
+    details: |
+      I worked in the Infrastructure team as a DevOps engineer.  
+      I supported CI/CD on Microsoft-oriented environment.
+        - **Technologies**: Octopus Deploy, Windows Server, C#, Powershell, Gitlab, TeamCity, Go, Ansible, Docker.
+        - **Approaches**: agile, code reviews.
 
 projects:
   title: Projects
   assignments:
-  - title: Moira Alerting
-    link: https://github.com/moira-alert/moira
-    tagline: "Moira is a real-time alerting tool, based on Graphite data."
+    - title: Moira Alerting
+      link: https://github.com/moira-alert/moira
+      tagline: "Moira is a real-time alerting tool, based on Graphite data."
 
-  - title: Botpress
-    link: https://github.com/titusjaka/botpress
-    tagline: The open-source chat-bot platform
+    - title: Botpress
+      link: https://github.com/titusjaka/botpress
+      tagline: The open-source chat-bot platform
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Golang
-    level: 95%
+    - name: Golang
+      level: 95%
 
-  - name: Docker
-    level: 80%
+    - name: Docker
+      level: 80%
 
-  - name: ElasticSearch
-    level: 70%
+    - name: ElasticSearch
+      level: 70%
 
-  - name: MongoDB
-    level: 70%
+    - name: MongoDB
+      level: 70%
 
-  - name: Python
-    level: 50%
+    - name: Python
+      level: 50%
 
-  - name: JavaScript
-    level: 40%
+    - name: JavaScript
+      level: 40%
 
-  - name: C# and .Net
-    level: 30%
+    - name: C# and .Net
+      level: 30%
