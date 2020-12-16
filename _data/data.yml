@@ -13,11 +13,11 @@ sidebar:
 
   # Sidebar links
   email: sescusu@gmail.com
-  phone: +375 257 266 819
+  phone: +7(995) 123-19-39
   linkedin: titusjaka
   github: titusjaka
   telegram: titusjaka
-  address: Minsk, Belarus
+  address: Krasnodar, Russia
 
   languages:
     - idiom: Russian
@@ -43,6 +43,7 @@ sidebar:
     - European Union
     - Georgia
     - Ukraine
+    - Belarus
 
 career-profile:
   title: Career Profile
@@ -64,6 +65,21 @@ education:
     time: 2009 - 2013
 
 experiences:
+  - role: Senior Software Engineer (Golang)
+    time: Mar 2020 – Dec 2020
+    company: xpate, Riga
+    details: |
+      xpate is a FinTech Startup that creates financial services using design centric approach making the payment process easier, faster and accessible to everyone.
+
+      I participated in the company's major projects. At first I developed the banking core. This is the financial system that is responsible for all settlements. 
+      And then I joined the payment gateway team.
+
+      Unfortunately, the company decided to close the development department completely.
+
+        - **Technologies**: Golang, PostgreSQL, Docker, Gitlab.
+        - **Approaches**: agile, blameless-postmortems, code reviews.
+
+
   - role: Chief Technology Officer
     time: Sep 2019 – Feb 2020
     company: Enjoy.ai, Minsk
