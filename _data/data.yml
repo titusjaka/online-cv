@@ -68,6 +68,7 @@ experiences:
   - role: Senior Software Engineer (Golang)
     time: Mar 2020 – Dec 2020
     company: xpate, Riga
+    website: https://xpate.com/
     details: |
       xpate is a FinTech Startup that creates financial services using design centric approach making the payment process easier, faster and accessible to everyone.
 
@@ -78,7 +79,6 @@ experiences:
 
         - **Technologies**: Golang, PostgreSQL, Docker, Gitlab.
         - **Approaches**: agile, blameless-postmortems, code reviews.
-
 
   - role: Chief Technology Officer
     time: Sep 2019 – Feb 2020
