@@ -9,7 +9,7 @@ sidebar:
   # Profile information
   name: Denis Titusov
   tagline: Senior Software Engineer
-  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: sescusu@gmail.com
@@ -34,7 +34,7 @@ sidebar:
       link: https://www.livelib.ru/reader/Titusjaka
 
     - item: Boardgames
-      link: https://boardgamegeek.com/
+      link: https://boardgamegeek.com/user/titusjaka
 
     - item: Bicycling
       link:
@@ -45,15 +45,12 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    I'm a Golang developer with a DevOps background.  
-    I'm experienced in Go, microservices, ElasticSearch. I'm also a bit familiar with JavaScript, Python, and C#.
+    I'm a Software Engineer most-experienced in Golang.
 
-    Team and tasks are important to me.  
-    If the team discusses issues together, negotiate and find compromises — then we will work together well.  
-    If the tasks are diverse and require brainstorming — I am in.
+    I'm keen on solving complex problems that don't have the right answer. It's not a problem for me to comprehend a new subject.
 
-    I'm looking for a job as a back-end developer in the product team or outsourcing company. Startups are welcome too.  
-    I have experience in setting up processes within the team. So I'm also considering the position of the team leader.  
+    I'm looking for a job as a back-end developer in a mid or small company. I'm also considering the position of the team leader.  
+
     I would be happy to discuss the opportunities.
 
 education:
@@ -64,13 +61,14 @@ education:
 experiences:
   - role: Senior Software Engineer (Golang)
     time: Mar 2020 – Dec 2020
-    company: xpate, Riga
+    company: xpate, Riga (remotely)
     website: https://xpate.com/
     details: |
-      xpate is a FinTech Startup that creates financial services using design centric approach making the payment process easier, faster and accessible to everyone.
+      _XPATE is a FinTech Startup building drag&drop-centric payment system._
 
-      I participated in the company's major projects. At first I developed the banking core. This is the financial system that is responsible for all settlements. 
-      And then I joined the payment gateway team.
+      I participated in the company key projects. 
+      In the first one, the corbanking, I've designed and developed the tarification system. 
+      In the second one, the payment gateway, I've designed and developed the tarification systems and designed the payment routing and the status model.
 
       Unfortunately, the company decided to close the development department completely.
 
@@ -82,11 +80,9 @@ experiences:
     company: Enjoy.ai, Minsk
     website: https://www.facebook.com/enjoyaipage/
     details: |
-      Enjoy.ai is a sexual wellness startup. Our goal is to help people diversify their intimate lives.  
-      As the first stage, we developed a chat-bot with natural language processing (NLP) and user-friendly content.
+      _Enjoy.ai was a sexual wellness startup. Its goal was to help people diversify their intimate lives._
 
-      I was the only developer on the project and was responsible for the whole technical details.  
-      We existed for six months. During this time we managed to make 3 versions of the product to test hypotheses in different audiences.
+      I was responsible for all the technical decisions. Within 6 months of the startup's existence I have developed and released 3 versions of the product.
         - **Technologies**: Golang, NLP, JavaScript, Docker, Gitlab.
 
   - role: Senior Software Engineer (Golang)
@@ -94,11 +90,12 @@ experiences:
     company: Affise, Minsk
     website: https://affise.com
     details: |
-      I was developing the core of the Affise platform.  
-      It was a complex and interesting project. Since the platform handles a total of 400,000 clicks per second with a latency of 20 milliseconds.
+      _Affise is a SaaS performance marketing platform._
 
-      I was also participating in Infrastructure activities: set up CI/CD, investigate the log management system, design duty process, introduce the culture of blameless-postmortems.
-        - **Technologies**: Golang, ElasticSearch, gRPC, Docker, Drone.io, Github.
+      I was the developer of the core Affise platform. I've optimized few services to handle a total of 400,000 clicks per second with a latency of 20 milliseconds.
+
+      As an extra activity I've designed a on-call duty process and introduced the culture of blameless-postmortems.
+        - **Technologies**: Golang, ElasticSearch, gRPC, Docker, Drone.io, Github, Ansible.
         - **Approaches**: agile, blameless-postmortems, code reviews.
 
   - role: "Software Engineer (Golang)"
@@ -106,24 +103,20 @@ experiences:
     company: SKB Kontur, Ekaterinburg
     website: https://kontur.ru
     details: |
-      I was participating in an Open-Source project of SKB Kontur — Moira.  
-      Moira is a real-time alerting system designed for the huge amount of metrics. It handles 200,000+ metrics per second.  
-      You can find information and source code here: [https://github.com/moira-alert/moira](https://github.com/moira-alert/moira).
+      _[Moira](https://github.com/moira-alert) is a real-time alerting system designed for the huge amount of metrics. It handles 200,000+ metrics per second._
 
-      I was the core developer. I have been writing the code and setting up CI/CD.  
-      As we didn't have a system administrator in the project, I was engaged in operations too.
-        - **Technologies**: Golang, TeamCity, GitHub, GitLab, Ansible, Docker, Travis, Redis.
-        - **Approaches**: agile, blameless-postmortems, code reviews.
+      I was the core developer. I've been writing a clean code and managing CI/CD. I've implemented a full-text search handling 10,000 RPS.
+        - **Technologies**: Golang, TeamCity, GitHub, GitLab, Ansible, Docker, Travis, Redis, [bleve search](http://blevesearch.com/). 
+        - **Approaches**: agile, blameless-postmortems, code reviews, on-call duties.
 
   - role: Independent Entrepreneur
     company: Anti-cafe D12, Ekaterinburg
     time: Jan 2017 — Mar 2018
     website: https://vk.com/d12.online
     details: |
-      I tried myself as an independent entrepreneur and have opened an anti-cafe named D12 in Ekaterinburg.  
-      It was a place for everyone who loves board games and communication.
+      I tried myself as an entrepreneur. I have opened an anti-cafe in Ekaterinburg.
 
-      Thanks to D12 I have learned lots of interesting things such as marketing, administrating, management and working with the audience.  
+      Thanks to D12 I have gathered new skills as marketing, administrating, management and working with the audience.  
       Unfortunately, It was economically disadvantageous, so I decided to close the anti-cafe.
         - **Technologies and approaches**: customer development, marketing, management.
 
@@ -132,21 +125,24 @@ experiences:
     company: SKB Kontur, Ekaterinburg
     website: https://kontur.ru
     details: |
-      I worked in the Infrastructure team as a DevOps engineer.  
-      I supported CI/CD on Microsoft-oriented environment.
-        - **Technologies**: Octopus Deploy, Windows Server, C#, Powershell, Gitlab, TeamCity, Go, Ansible, Docker.
-        - **Approaches**: agile, code reviews.
+      _SKB Kontur is a major IT-company that develops dozens of products for B2B and B2G._
+
+      I've been implementing and maintaining CI/CD on Microsoft-oriented environment. The main tools were Octopus Deploy and TeamCity.
+
+      I've migrated the most of the teams from manual deploy to Octopus. As a result, I've been managing CI/CD on thousands of nodes.
+        - **Technologies**: Octopus Deploy, TeamCity, Windows Server, C#, Powershell, Gitlab, Go, Ansible, Docker.
+        - **Approaches**: agile, code reviews, blameless-postmortems, on-call duties.
 
 projects:
   title: Projects
   assignments:
     - title: Moira Alerting
       link: https://github.com/moira-alert/moira
-      tagline: "Moira is a real-time alerting tool, based on Graphite data."
+      tagline: "The real-time alerting tool, based on Graphite data."
 
     - title: Botpress
-      link: https://github.com/titusjaka/botpress
-      tagline: The open-source chat-bot platform
+      link: https://github.com/botpress/botpress
+      tagline: The open-source chat-bot platform.
 
 skills:
   title: Skills &amp; Proficiency
@@ -158,17 +154,35 @@ skills:
     - name: Docker
       level: 80%
 
-    - name: ElasticSearch
+    - name: PostgreSQL
       level: 70%
 
-    - name: MongoDB
+    - name: Redis
       level: 70%
 
-    - name: Python
+    - name: gRPC
+      level: 65%
+
+    - name: Bash
+      level: 60%
+
+    - name: Ansible
+      level: 60%
+
+    - name: Linux
+      level: 55%
+
+    - name: Graphite
       level: 50%
 
-    - name: JavaScript
-      level: 40%
+    - name: Clickhouse
+      level: 50%
 
-    - name: C# and .Net
-      level: 30%
+    - name: ElasticSearch
+      level: 50%
+
+    - name: MongoDB
+      level: 50%
+
+    - name: Nginx
+      level: 50%
