@@ -73,7 +73,7 @@ experiences:
 
       Unfortunately, the company decided to completely close the development department.
 
-        - **Technologies**: Golang, PostgreSQL, Docker, Gitlab, Clickhouse, Grafana.
+        - **Technologies**: Golang, PostgreSQL, Docker, AWS, Pulumi, Gitlab, Clickhouse, Grafana.
         - **Approaches**: agile, blameless-postmortems, code reviews.
 
   - role: Chief Technology Officer
