@@ -46,11 +46,11 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    I'm a Software Engineer most-experienced in Golang.
+    I'm a Software Engineer experienced in Golang.
 
     I'm keen on solving complex problems that don't have the right answer. It's not a problem for me to comprehend a new subject.
 
-    I'm looking for a job as a back-end developer in a mid or small company. I'm also considering the position of the team leader.  
+    I'm looking for a job as a back-end developer in a medium or small company. I'm also considering a position of a team leader.  
 
     I would be happy to discuss the opportunities.
 
@@ -67,11 +67,11 @@ experiences:
     details: |
       _XPATE is a FinTech Startup building drag&drop-centric payment system._
 
-      I participated in the company key projects. 
-      In the first one, the corbanking, I've designed and developed the tarification system. 
-      In the second one, the payment gateway, I've designed and developed the tarification systems and designed the payment routing and the status model.
+      I participated in the company key projects.
+      I designed and developed a tarification system for a corebanking and a payment gateway.
+      I also designed a payment routing and a status model for the payment gateway.
 
-      Unfortunately, the company decided to close the development department completely.
+      Unfortunately, the company decided to completely close the development department.
 
         - **Technologies**: Golang, PostgreSQL, Docker, Gitlab.
         - **Approaches**: agile, blameless-postmortems, code reviews.
@@ -83,7 +83,7 @@ experiences:
     details: |
       _Enjoy.ai was a sexual wellness startup. Its goal was to help people diversify their intimate lives._
 
-      I was responsible for all the technical decisions. Within 6 months of the startup's existence I have developed and released 3 versions of the product.
+      I was responsible for all the technical decisions. Within 6 months of the startup's existence I developed and released 3 versions of the product.
         - **Technologies**: Golang, NLP, JavaScript, Docker, Gitlab.
 
   - role: Senior Software Engineer (Golang)
@@ -93,9 +93,9 @@ experiences:
     details: |
       _Affise is a SaaS performance marketing platform._
 
-      I was the developer of the core Affise platform. I've optimized few services to handle a total of 400,000 clicks per second with a latency of 20 milliseconds.
+      I was the developer of the core Affise platform. I optimized few services to handle a total of 400,000 clicks per second with a latency of 20 milliseconds.
 
-      As an extra activity I've designed a on-call duty process and introduced the culture of blameless-postmortems.
+      As an extra activity I designed a on-call duty process and introduced the culture of blameless-postmortems.
         - **Technologies**: Golang, ElasticSearch, gRPC, Docker, Drone.io, Github, Ansible.
         - **Approaches**: agile, blameless-postmortems, code reviews.
 
@@ -106,7 +106,7 @@ experiences:
     details: |
       _[Moira](https://github.com/moira-alert) is a real-time alerting system designed for the huge amount of metrics. It handles 200,000+ metrics per second._
 
-      I was the core developer. I've been writing a clean code and managing CI/CD. I've implemented a full-text search handling 10,000 RPS.
+      As a core developer I was writing a clean code and managing CI/CD. I implemented a full-text search handling 10,000 RPS.
         - **Technologies**: Golang, TeamCity, GitHub, GitLab, Ansible, Docker, Travis, Redis, [bleve search](http://blevesearch.com/). 
         - **Approaches**: agile, blameless-postmortems, code reviews, on-call duties.
 
@@ -115,9 +115,9 @@ experiences:
     time: Jan 2017 — Mar 2018
     website: https://vk.com/d12.online
     details: |
-      I tried myself as an entrepreneur. I have opened an anti-cafe in Ekaterinburg.
+      I tried myself as an entrepreneur. I opened an anti-cafe in Ekaterinburg.
 
-      Thanks to D12 I have gathered new skills as marketing, administrating, management and working with the audience.  
+      Thanks to D12 I gathered new skills as marketing, administrating, management and working with the audience.  
       Unfortunately, It was economically disadvantageous, so I decided to close the anti-cafe.
         - **Technologies and approaches**: customer development, marketing, management.
 
@@ -128,9 +128,9 @@ experiences:
     details: |
       _SKB Kontur is a major IT-company that develops dozens of products for B2B and B2G._
 
-      I've been implementing and maintaining CI/CD on Microsoft-oriented environment. The main tools were Octopus Deploy and TeamCity.
+      I was implementing and maintaining CI/CD on Microsoft-oriented environment.
 
-      I've migrated the most of the teams from manual deploy to Octopus. As a result, I've been managing CI/CD on thousands of nodes.
+      I helped most teams to migrate from manual deployment to Octopus Deploy. As a result, I was managing CI/CD on thousands of nodes.
         - **Technologies**: Octopus Deploy, TeamCity, Windows Server, C#, Powershell, Gitlab, Go, Ansible, Docker.
         - **Approaches**: agile, code reviews, blameless-postmortems, on-call duties.
 
