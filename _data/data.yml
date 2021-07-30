@@ -3,7 +3,7 @@
 #
 
 sidebar:
-  age: 28
+  age: 29
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
@@ -18,7 +18,7 @@ sidebar:
   linkedin: titusjaka
   github: titusjaka
   telegram: titusyaka
-  address: Krasnodar, Russia
+  address: Novi Sad, Serbia
 
   languages:
     - idiom: Russian
@@ -60,6 +60,19 @@ education:
     time: 2009 - 2013
 
 experiences:
+  - role: Senior Software Engineer (Golang)
+    time: Feb 2021 – Jul 2021
+    company: Golane, Munich (remotely)
+    website: https://www.golane.de/
+    details: |
+      Golane is a startup building simple ticketing system for public transport.
+
+      I was developing the services related to payments. 
+      The most interesting was the best price calculator. 
+      This service calculates the best possible tickets combination (daily, weekly, etc.) for the user.
+
+        - **Technologies**: Golang, PostgreSQL, Docker, Kafka, GraphQL, gRPC.
+
   - role: Senior Software Engineer (Golang)
     time: Mar 2020 – Dec 2020
     company: xpate, Riga (remotely)
