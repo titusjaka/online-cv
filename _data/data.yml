@@ -13,12 +13,12 @@ sidebar:
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: sescusu@gmail.com
+  email: denis@titusov.ru
   phone: +7 (995) 221-19-03
-  linkedin: titusjaka
+  linkedin: titusyaka
   github: titusjaka
   telegram: titusyaka
-  address: Saint Petersburg, Russia
+  address: Moscow, Russia
 
   languages:
     - idiom: Russian
@@ -29,7 +29,7 @@ sidebar:
 
   interests:
     - item: Climbing
-      link: https://en.wikipedia.org/wiki/Bouldering
+      link:
 
     - item: Science Fiction and Nonfiction
       link: https://www.livelib.ru/reader/Titusjaka
