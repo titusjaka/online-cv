@@ -3,7 +3,7 @@
 #
 
 sidebar:
-  age: 29
+  age: 30
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
@@ -18,7 +18,7 @@ sidebar:
   linkedin: denis-titusov
   github: titusjaka
   telegram: denis_titusov
-  address: Moscow, Russia
+  address: Moscow, Russia (relocating to Georgia)
 
   languages:
     - idiom: Russian
@@ -48,9 +48,9 @@ career-profile:
   summary: |
     I’m a Software Engineer experienced in Golang.
 
-    I’m keen on solving complex problems that don’t have the right answer. It’s not a problem for me to comprehend a new subject.
+    I’m keen on solving complex problems that don’t have the right answer. I love comprehending a new subject.
 
-    I’m looking for a job as a back-end developer in a medium or small company. I’m also considering the position of team leader.
+    I’m looking for a job as a back-end developer in a medium or small company. I’m also considering the position of a team leader.
 
     I would be happy to discuss the opportunities.
 
@@ -61,17 +61,39 @@ education:
 
 experiences:
   - role: Senior Software Engineer (Golang)
+    time: Nov 2021 – Jul 2022
+    company: VK, Moscow
+    website: https://vk.company/en
+    details: |
+      _I worked on the VK’s project named Youla. Youla is a geolocation-based classified ads service. 
+      The service helps users sell and buy used items._
+
+      I worked in the infrastructure team that built the platform for the other developers. 
+      The goal of my team was to make launching Golang microservices smooth and fast.
+
+      What I’ve accomplished in this position:
+
+        - I’ve written comprehensive documentation about the best practices, CI/CD, architecture, and other vital topics.
+        - I’ve created the launchpad — a small CLI tool that creates a new service literally within one command. 
+          The resulting service has the telemetry, CI/CD, and deploy to the Kubernetes cluster.
+        - I’ve created an infrastructure framework for reusable instruments such as logging, metrics, tracing, and profiling.
+
+      **Technologies**: 
+        - Golang, Docker, Kubernetes.
+
+  - role: Senior Software Engineer (Golang)
     time: Feb 2021 – Jul 2021
     company: Golane, Munich (remotely)
     website: https://www.golane.de/
     details: |
-      Golane is a startup building simple ticketing system for public transport.
+      _Golane is a startup building simple ticketing system for a public transport._
 
       I was developing the services related to payments. 
       The most interesting was the best price calculator. 
       This service calculates the best possible tickets combination (daily, weekly, etc.) for the user.
 
-        - **Technologies**: Golang, PostgreSQL, Docker, Kafka, GraphQL, gRPC.
+      **Technologies**: 
+        - Golang, PostgreSQL, Docker, Kafka, GraphQL, gRPC.
 
   - role: Senior Software Engineer (Golang)
     time: Mar 2020 – Dec 2020
@@ -84,8 +106,11 @@ experiences:
 
       Unfortunately, the company decided to close the development department completely.
 
-        - **Technologies**: Golang, PostgreSQL, Docker, AWS, Pulumi, Gitlab, Clickhouse, Grafana.
-        - **Approaches**: agile, blameless-postmortems, code reviews.
+      **Technologies**: 
+        - Golang, PostgreSQL, Docker, AWS, Pulumi, Gitlab, Clickhouse, Grafana.
+
+      **Approaches**: 
+        - Agile, blameless-postmortems, code reviews.
 
   - role: Chief Technology Officer
     time: Sep 2019 – Feb 2020
@@ -95,7 +120,9 @@ experiences:
       _Enjoy.ai was a sexual wellness startup. Its goal was to help people diversify their intimate lives._
 
       I was responsible for all the technical decisions. Within six months of the startup’s existence, I developed and released three versions of the product.
-        - **Technologies**: Golang, NLP, JavaScript, Docker, Gitlab.
+
+      **Technologies**: 
+        - Golang, NLP, JavaScript, Docker, Gitlab.
 
   - role: Senior Software Engineer (Golang)
     time: Dec 2018 — Sep 2019
@@ -107,8 +134,12 @@ experiences:
       I was the developer of the core Affise platform. I optimized few services to handle 400,000 clicks per second with a latency of 20 milliseconds.
 
       As an extra activity, I designed an on-call duty process and introduced the culture of blameless-postmortems.
-        - **Technologies**: Golang, ElasticSearch, gRPC, Docker, Drone.io, Github, Ansible.
-        - **Approaches**: agile, blameless-postmortems, code reviews.
+
+      **Technologies**: 
+        - Golang, ElasticSearch, gRPC, Docker, Drone.io, Github, Ansible.
+
+      **Approaches**: 
+        - Agile, blameless-postmortems, code reviews.
 
   - role: "Software Engineer (Golang)"
     time: Mar 2018 - Dec 2018
@@ -118,8 +149,12 @@ experiences:
       _[Moira](https://github.com/moira-alert) is a real-time alerting system designed for a massive amount of metrics. It handles 200,000+ metrics per second._
 
       As a core developer, I was writing clean code and managing CI/CD. I implemented a full-text search handling 10,000 RPS.
-        - **Technologies**: Golang, TeamCity, GitHub, GitLab, Ansible, Docker, Travis, Redis, [bleve search](http://blevesearch.com/). 
-        - **Approaches**: agile, blameless-postmortems, code reviews, on-call duties.
+
+      **Technologies**: 
+        - Golang, TeamCity, GitHub, GitLab, Ansible, Docker, Travis, Redis, [bleve search](http://blevesearch.com/). 
+
+      **Approaches**:
+        - Agile, blameless-postmortems, code reviews, on-call duties.
 
   - role: Independent Entrepreneur
     company: Anti-cafe D12, Ekaterinburg
@@ -130,7 +165,9 @@ experiences:
 
       Thanks to D12, I gathered new marketing, administration, management, and working skills with the audience.
       Unfortunately, It was economically disadvantageous, so I decided to close the anti-cafe.
-        - **Technologies and approaches**: customer development, marketing, management.
+
+      **Technologies and approaches**: 
+        - customer development, marketing, management.
 
   - role: DevOps Engineer
     time: Oct 2015 - Jul 2017
@@ -142,8 +179,12 @@ experiences:
       I was implementing and maintaining CI/CD in a Microsoft-oriented environment.
 
       I helped most teams to migrate from manual deployment to Octopus Deploy. As a result, I was managing CI/CD on thousands of nodes.
-        - **Technologies**: Octopus Deploy, TeamCity, Windows Server, C#, Powershell, Gitlab, Go, Ansible, Docker.
-        - **Approaches**: agile, code reviews, blameless-postmortems, on-call duties.
+
+      **Technologies**: 
+        - Octopus Deploy, TeamCity, Windows Server, C#, Powershell, Gitlab, Go, Ansible, Docker.
+
+      **Approaches**:
+        - Agile, code reviews, blameless-postmortems, on-call duties.
 
 projects:
   title: Projects
